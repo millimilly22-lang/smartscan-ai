@@ -1,0 +1,1 @@
+SmartScan AI app icons.
