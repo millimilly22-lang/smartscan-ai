@@ -1,0 +1,1 @@
+PWA icon assets are included in the project package.
