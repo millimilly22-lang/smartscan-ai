@@ -1,10 +1,10 @@
 {
-  "id": "https://smartscan-ai-y9er.onrender.com/",
+  "id": "/",
   "name": "SmartScan AI",
   "short_name": "SmartScan",
   "description": "Scan documents, extract text, analyze key details, ask questions, track expenses, and export PDFs.",
-  "start_url": "https://smartscan-ai-y9er.onrender.com/",
-  "scope": "https://smartscan-ai-y9er.onrender.com/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
   "display": "standalone",
   "display_override": ["window-controls-overlay", "standalone"],
   "orientation": "any",
@@ -16,19 +16,22 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "https://smartscan-ai-y9er.onrender.com/icons/icon-192.png",
+      "src": "/icons/icon-192.png?v=4",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "https://smartscan-ai-y9er.onrender.com/icons/icon-512.png",
+      "src": "/icons/icon-512.png?v=4",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "https://smartscan-ai-y9er.onrender.com/icons/icon-1024.png",
-      "sizes": "1024x1024",
-      "type": "image/png"
+      "src": "/icons/icon-512.png?v=4-maskable",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
