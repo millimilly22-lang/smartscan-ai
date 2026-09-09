@@ -1,10 +1,9 @@
-const CACHE = 'smartscan-ai-v3';
+const CACHE = 'smartscan-ai-v4';
 const CORE_ASSETS = [
   '/',
-  '/manifest.webmanifest',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
-  '/icons/icon-1024.png',
+  '/manifest.webmanifest?v=4',
+  '/icons/icon-192.png?v=4',
+  '/icons/icon-512.png?v=4',
   '/privacy.html',
   '/terms.html',
   '/support.html'
@@ -12,9 +11,7 @@ const CORE_ASSETS = [
 
 self.addEventListener('install', event => {
   self.skipWaiting();
-  event.waitUntil(
-    caches.open(CACHE).then(cache => cache.addAll(CORE_ASSETS))
-  );
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE_ASSETS)));
 });
 
 self.addEventListener('activate', event => {
@@ -28,7 +25,6 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
-
   event.respondWith(
     fetch(event.request)
       .then(response => {
