@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#0b1020" />
     <meta name="description" content="SmartScan AI scans documents, extracts text, highlights key details, answers questions, and exports clean PDFs." />
-    <link rel="manifest" href="https://smartscan-ai-app-xtuh.onrender.com/manifest.webmanifest" type="application/manifest+json" />
-    <link rel="icon" type="image/png" sizes="192x192" href="https://smartscan-ai-app-xtuh.onrender.com/icons/icon-192.png" />
-    <link rel="icon" type="image/png" sizes="512x512" href="https://smartscan-ai-app-xtuh.onrender.com/icons/icon-512.png" />
-    <link rel="apple-touch-icon" sizes="192x192" href="https://smartscan-ai-app-xtuh.onrender.com/icons/icon-192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icons/icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png" />
     <title>SmartScan AI</title>
     <script>
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-          navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(function () {});
-        });
+        navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(function () {});
       }
     </script>
   </head>
