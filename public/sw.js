@@ -1,4 +1,4 @@
-const CACHE = 'smartscan-ai-v2';
+const CACHE = 'smartscan-ai-v3';
 const CORE_ASSETS = [
   '/',
   '/manifest.webmanifest',
