@@ -1,10 +1,10 @@
 {
-  "id": "/",
+  "id": "https://smartscan-ai-app-xtuh.onrender.com/",
   "name": "SmartScan AI",
   "short_name": "SmartScan",
   "description": "Scan documents, extract text, analyze key details, ask questions, track expenses, and export PDFs.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "https://smartscan-ai-app-xtuh.onrender.com/",
+  "scope": "https://smartscan-ai-app-xtuh.onrender.com/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#080d19",
@@ -15,22 +15,28 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "https://smartscan-ai-app-xtuh.onrender.com/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "https://smartscan-ai-app-xtuh.onrender.com/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "https://smartscan-ai-app-xtuh.onrender.com/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    },
+    {
+      "src": "https://smartscan-ai-app-xtuh.onrender.com/icons/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
