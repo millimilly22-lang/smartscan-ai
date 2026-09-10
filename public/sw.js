@@ -1,9 +1,9 @@
-const CACHE = 'smartscan-ai-v5';
+const CACHE = 'smartscan-ai-v6';
 const CORE_ASSETS = [
   '/',
   '/manifest.json',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
+  '/icons/pwa-192.png',
+  '/icons/pwa-512.png',
   '/privacy.html',
   '/terms.html',
   '/support.html'
