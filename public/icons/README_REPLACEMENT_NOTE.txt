@@ -1,0 +1,1 @@
+Binary PWA icons are managed via Git blobs. Do not edit PNG files as text.
