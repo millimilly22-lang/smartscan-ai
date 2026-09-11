@@ -1,7 +1,7 @@
 {
   "id": "/",
   "name": "SmartScan AI",
-  "short_name": "SmartScan",
+  "short_name": "SmartScan AI",
   "description": "Scan documents, extract text, analyze key details, ask questions, track expenses, and export PDFs.",
   "start_url": "/",
   "scope": "/",
